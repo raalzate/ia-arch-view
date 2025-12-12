@@ -59,7 +59,7 @@ npm run dev
 Primero, necesitas analizar tu proyecto Java usando la herramienta Java Dependency Extractor (incluida):
 
 ```bash
-java -jar java-dependency-extractor.jar /ruta/a/tu/proyecto
+java -jar java-dependency-extractor.jar /ruta/a/tu/proyecto output.json
 ```
 
 Esto generará dos archivos JSON:
@@ -169,10 +169,6 @@ Las propuestas de microservicios incluyen:
 - Las API keys deben configurarse en variables de entorno (nunca en el código)
 - Detección automática de componentes con datos sensibles
 
-## 🐛 Troubleshooting
-
-### Error: "You specified knownHelpersOnly, but used the unknown helper JSON"
-Este error ha sido resuelto. Asegúrate de tener la última versión del código donde los datos JSON se pre-stringify antes de pasarlos al template.
 
 ### El grafo no se renderiza
 - Asegúrate de que el análisis se haya completado exitosamente
@@ -180,7 +176,7 @@ Este error ha sido resuelto. Asegúrate de tener la última versión del código
 - Revisa la consola del navegador para errores
 
 ### Error de API Key de Gemini
-- Verifica que `GOOGLE_GENAI_API_KEY` esté configurada en `.env`
+- Verifica que `GEMINI_API_KEY` esté configurada en `.env`
 - Asegúrate de que la API key sea válida y tenga acceso a Gemini
 - Reinicia el servidor después de modificar las variables de entorno
 
@@ -208,6 +204,8 @@ Este proyecto está bajo la licencia MIT. Ver el archivo `LICENSE` para más det
 ## 👥 Autores
 
 Desarrollado como parte del proyecto de Maestría en Ingeniería de Software
+
+- Raul Alzate <alzategomez.raul@gmail.com>
 
 ## 🙏 Agradecimientos
 
