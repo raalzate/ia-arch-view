@@ -12,7 +12,7 @@ Una herramienta potente para analizar, visualizar y modernizar aplicaciones Java
 - **Detección de Patrones**: Identifica arquitecturas (Hexagonal, N-Capas, Spring Boot, Java EE)
 - **Análisis de Seguridad**: Detecta componentes con datos sensibles y referencias a secretos
 
-[Descargar video tutorial](./docs/video-tutorial.mp4)
+[![Ver video en YouTube](https://img.youtube.com/vi/ndbPA8qsZJE/maxresdefault.jpg)](https://youtu.be/ndbPA8qsZJE)
 
 ## 🚀 Inicio Rápido
 
